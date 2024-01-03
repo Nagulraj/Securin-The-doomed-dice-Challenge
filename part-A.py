@@ -14,7 +14,7 @@ print("Total number of Possible Combinations are:",end="")
 print(no_of_combinations)
 
 
-#part-B (ii)
+#part-A (ii)
 
 
 def distribution_of_combinations(adice, bdice):
@@ -29,6 +29,7 @@ def distribution_of_combinations(adice, bdice):
 matrix=distribution_of_combinations(adice, bdice)
 
 print("All Possible Combinations are:")
+# print(matrix)
 for combinations in matrix:
     for combination in combinations:
         print(combination,end=" ")
