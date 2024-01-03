@@ -71,6 +71,14 @@ original_sum_probabilities = {2: 1, 4: 3, 5: 4, 6: 5, 7: 6, 9: 4, 3: 2, 8: 5, 10
 
             old Die A = [1,2,3,4,5,6]
             old Die B = [1,2,3,4,5,6]
+
+
+                                         Answer
+    
+The New combination of Die A and Die B with same old Probability Sum is
+
+        New Die A=[1,2,2,3,3,4]
+        New Die B=[1,3,4,5,6,8]
             
 
 
