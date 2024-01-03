@@ -63,12 +63,11 @@ possible_die_faces_b = [1,2,3,4,5,6,7,8]
 total_spots = 42
             The sum of the spots in Die A is 21 ie n(n+1)/2 6(6+1)
             The sum of the spots in Die B is 21 ie n(n+1)/2 6(6+1)
-
-            These spots will be later doomed by Loki.But the spots count stays the same.
+These spots will be later doomed by Loki.But the spots count stays the same.
 
 original_sum_probabilities = {2: 1, 4: 3, 5: 4, 6: 5, 7: 6, 9: 4, 3: 2, 8: 5, 10: 3, 11: 2, 12: 1}
 
-            The above is  probability sum of the old dice A and old Dice B
+    The above is  probability sum of the old dice A and old Dice B
 
             old Die A = [1,2,3,4,5,6]
             old Die B = [1,2,3,4,5,6]
