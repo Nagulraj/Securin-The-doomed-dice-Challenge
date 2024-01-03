@@ -2,8 +2,8 @@
 
 def possible_combinations(adice,bdice):
     result=0
-    for i in adice:
-        for j in bdice:
+    for spot_a in adice:
+        for spot_b in bdice:
             result+=1
     return result
 
@@ -20,11 +20,11 @@ print()
 
 
 def distribution_of_combinations(adice, bdice):
-    matrix=[[] for i in range(6)]
-    for i in adice:
-        for j in bdice:
-            each_throw=(i,j)
-            matrix[i-1].append(each_throw)
+    matrix=[[] for spots in range(6)]
+    for spot_a in adice:
+        for spot_b in bdice:
+            each_throw=(spot_a,spot_b)
+            matrix[spot_a-1].append(each_throw)
     return matrix
 
 
