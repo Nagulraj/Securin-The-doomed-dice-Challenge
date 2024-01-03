@@ -10,8 +10,10 @@ def possible_combinations(adice,bdice):
 adice=[1,2,3,4,5,6]
 bdice=[1,2,3,4,5,6]
 no_of_combinations=possible_combinations(adice,bdice)
+print("part-A (i)")
 print("Total number of Possible Combinations are:",end="")
 print(no_of_combinations)
+print()
 
 
 #part-A (ii)
@@ -27,6 +29,8 @@ def distribution_of_combinations(adice, bdice):
 
 
 matrix=distribution_of_combinations(adice, bdice)
+
+print("part-A (ii)")
 
 print("All Possible Combinations are:")
 # print(matrix)
@@ -55,6 +59,7 @@ for combinations in matrix:
             prob_sum[combination_sum]=1
         else:
             prob_sum[combination_sum]+=1
+print("part-A(iii)")
 
 for combination_sum in prob_sum.keys():
     print(f"the probability of the sum {combination_sum} is {prob_sum[combination_sum]}/36")
