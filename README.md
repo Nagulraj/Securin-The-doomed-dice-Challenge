@@ -52,5 +52,27 @@ undoom_dice(die_a, die_b):
                                         Approach
 In die_a_combinations and die_b_combinations
             To find all the possible combinations of both dice I use recursion. This is bruteforce technique to find the combinations.
+        
+                                        Assignments
+possible_die_faces_a = [0,1,2,3,4]
+            Since from the given the maximum value that the Die A can hold is 4. so the list contains all the possible values upto 4. 
+        
+possible_die_faces_b = [1,2,3,4,5,6,7,8]
+            The maximum probability sum is 12 and from the previous point we can see the that the maximum value Die A can hold is 4.So with this we can say that maximum possible value in Die B is 8.So it has all the values with in 8.
+
+total_spots = 42
+            The sum of the spots in Die A is 21 ie n(n+1)/2 6(6+1)
+            The sum of the spots in Die B is 21 ie n(n+1)/2 6(6+1)
+
+            These spots will be later doomed by Loki.But the spots count stays the same.
+
+original_sum_probabilities = {2: 1, 4: 3, 5: 4, 6: 5, 7: 6, 9: 4, 3: 2, 8: 5, 10: 3, 11: 2, 12: 1}
+
+            The above is  probability sum of the old dice A and old Dice B
+
+            old Die A = [1,2,3,4,5,6]
+            old Die B = [1,2,3,4,5,6]
+            
+
 
 
